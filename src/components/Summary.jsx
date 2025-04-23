@@ -45,14 +45,14 @@ function Summary() {
                 title={item.category}
                 score={item.score}
                 denominator="/ 100"
-                backgroundColor={backgroundColor} // Pass backgroundColor here
-                titleColor={titleColor} // Pass titleColor here
+                backgroundColor={backgroundColor} 
+                titleColor={titleColor} 
                 />
             );
             })}
         </div>
         <button className="continue-btn">Continue</button>
-        </section>
+    </section>
     );
 }
 
